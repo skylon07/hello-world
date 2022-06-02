@@ -1,4 +1,5 @@
 # hello-world
-My ideas and resources repo
+NOT my ideas and resources repo
 
-This readme file doesnt do much, so you can ignore it!
+I use this repo whenever I want to test something out, but not make a new repository for it
+Bc I'm lazy sometimes
