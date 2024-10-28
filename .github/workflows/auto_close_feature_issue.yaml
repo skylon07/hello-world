@@ -1,3 +1,6 @@
+# copied and modified from this action's example:
+# https://github.com/marketplace/actions/closes-issues-related-to-a-merged-pull-request
+
 name: Auto-close feature-related issue
 
 on:
@@ -7,6 +10,11 @@ on:
     branches:
       - 'feature/**'
 jobs:
-  did_merge:
-    runs-on: ubuntu-latest
+  close_issues_on_merge:
     if: github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    steps:
+      - name: Closes issues related to a merged pull request.
+        uses: ldez/gha-mjolnir@v1.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
