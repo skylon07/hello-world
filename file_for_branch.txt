@@ -5,3 +5,6 @@ OOOOH THIS IS A BUGFIX GLAD WE CAUGHT THIS
 AAAAH HERE IS ANOTHER BUGFIX OH GOSH GOLLY
 
 here's another pretend bugfix
+
+
+This change was made to test the issue auto close thingy for feature branches
