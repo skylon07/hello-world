@@ -7,4 +7,4 @@ AAAAH HERE IS ANOTHER BUGFIX OH GOSH GOLLY
 here's another pretend bugfix
 
 
-This change was made to test the issue auto close thingy for feature branches
+This change was made to ACTUALLY test the issue auto close thingy for merging INTO feature branches
