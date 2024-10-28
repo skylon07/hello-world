@@ -8,3 +8,4 @@ here's another pretend bugfix
 
 
 This change was made to ACTUALLY test the issue auto close thingy for merging INTO feature branches
+(this change is the one to merge into the feature branch)
