@@ -1,0 +1,12 @@
+name: Auto-close feature-related issue
+
+on:
+  pull_request:
+    types: 
+      - closed
+    branches:
+      - 'feature/**'
+jobs:
+  did_merge:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged
